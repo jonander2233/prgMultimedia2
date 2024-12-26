@@ -1,0 +1,4410 @@
+{
+  "id": 1,
+  "name": "Torneo Hispano",
+  "cards": [
+    {
+      "arena": 2,
+      "description": "Small, lightly protected skeleton who throws bombs. Deals area damage that can wipe out a swarm of enemies.",
+      "elixir": 2,
+      "hitSpeed": 1800,
+      "id": 26000013,
+      "image": "bomber",
+      "name": "Bomber",
+      "range": 4500,
+      "rarity": "Common",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 4,
+      "description": "Jumps on enemies, dealing Area Damage and stunning up to 9 enemy Troops. Locked in an eternal battle with Knight for the best mustache.",
+      "elixir": 1,
+      "hitSpeed": 300,
+      "id": 26000084,
+      "image": "electro_spirit",
+      "name": "Electro Spirit",
+      "range": 2500,
+      "rarity": "Common",
+      "speed": 120,
+      "type": "Troop"
+    },
+    {
+      "arena": 5,
+      "description": "Spawns a handful of tiny flying creatures. Think of them as sweet, purple... balls of DESTRUCTION!",
+      "elixir": 2,
+      "hitSpeed": 0,
+      "id": 26000049,
+      "image": "bats",
+      "name": "Bats",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 11,
+      "description": "He lands with a \"POW!\", stuns nearby enemies and shoots lightning with both hands! What a show off.",
+      "elixir": 4,
+      "hitSpeed": 1800,
+      "id": 26000042,
+      "image": "electro_wizard",
+      "name": "Electro Wizard",
+      "range": 5000,
+      "rarity": "Legendary",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 5,
+      "description": "Defensive building with a long range. Shoots big boulders that deal area damage, but cannot hit targets that get too close!",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 27000002,
+      "image": "mortar",
+      "name": "Mortar",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 7,
+      "description": "Don't let the little pony fool you. Once the Prince gets a running start, you WILL be trampled. Deals double damage once he gets charging.",
+      "elixir": 5,
+      "hitSpeed": 1400,
+      "id": 26000086,
+      "image": "raging_prince",
+      "name": "Raging Prince",
+      "range": 1600,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 5,
+      "description": "Zaps enemies, briefly stunning them and dealing damage inside a small radius. Reduced damage to Crown Towers.",
+      "elixir": 2,
+      "hitSpeed": 0,
+      "id": 28000008,
+      "image": "zap",
+      "name": "Zap",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 7,
+      "description": "As pretty as they are, you won't want a parade of THESE balloons showing up on the horizon. Drops powerful bombs and when shot down, crashes dealing area damage.",
+      "elixir": 5,
+      "hitSpeed": 2000,
+      "id": 26000006,
+      "image": "balloon",
+      "name": "Balloon",
+      "range": 100,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 11,
+      "description": "Together they charge through the Arena; snaring enemies, knocking down towers ... and chewing grass!?",
+      "elixir": 5,
+      "hitSpeed": 1100,
+      "id": 26000051,
+      "image": "ram_rider",
+      "name": "Ram Rider",
+      "range": 5500,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 10,
+      "description": "Slow but durable, only attacks buildings. When destroyed, explosively splits into two Golemites and deals area damage!",
+      "elixir": 8,
+      "hitSpeed": 2500,
+      "id": 26000009,
+      "image": "golem",
+      "name": "Golem",
+      "range": 750,
+      "rarity": "Epic",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 9,
+      "description": "Spawns six Goblins - three with knives, three with spears - at a discounted Elixir cost. It's like a Goblin Value Pack!",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 26000041,
+      "image": "goblin_gang",
+      "name": "Goblin Gang",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 2,
+      "description": "Building that periodically spawns Skeletons to fight the enemy... and when destroyed, spawns 4 more Skeletons! Creepy!",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 27000009,
+      "image": "tombstone",
+      "name": "Tombstone",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 0,
+      "description": "Annnnnd... Fireball. Incinerates a small area, dealing high damage. Reduced damage to Crown Towers.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 28000000,
+      "image": "fireball",
+      "name": "Fireball",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 0,
+      "description": "The Arena is a certified butterfly-free zone. No distractions for P.E.K.K.A, only destruction.",
+      "elixir": 4,
+      "hitSpeed": 1600,
+      "id": 26000018,
+      "image": "mini_p.e.k.k.a",
+      "name": "Mini P.E.K.K.A",
+      "range": 800,
+      "rarity": "Rare",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 13,
+      "description": "The Lava Hound is a majestic flying beast that attacks buildings. The Lava Pups are less majestic angry babies that attack anything.",
+      "elixir": 7,
+      "hitSpeed": 1300,
+      "id": 26000029,
+      "image": "lava_hound",
+      "name": "Lava Hound",
+      "range": 3500,
+      "rarity": "Legendary",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 16,
+      "description": "Terry and his trusty companion Pim Pim bring their unconventional Hog Riding skills to the Arena!",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 26000081,
+      "image": "terry",
+      "name": "Terry",
+      "range": 0,
+      "rarity": "Champion",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 10,
+      "description": "He deals BIG damage up close - not so much at range. What he lacks in accuracy, he makes up for with his impressively bushy eyebrows.",
+      "elixir": 4,
+      "hitSpeed": 2200,
+      "id": 26000044,
+      "image": "hunter",
+      "name": "Hunter",
+      "range": 4000,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 11,
+      "description": "A spilt bottle of Rage turned an innocent tree trunk into \"The Log\". Now, it seeks revenge by crushing anything in its path! Reduced damage to Crown Towers.",
+      "elixir": 2,
+      "hitSpeed": 0,
+      "id": 28000011,
+      "image": "the_log",
+      "name": "The Log",
+      "range": 0,
+      "rarity": "Legendary",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 14,
+      "description": "Building capable of burrowing underground and appearing anywhere in the Arena. Spawns Goblins one at a time until destroyed. Then spawns a few more, to make sure everything nearby has been properly stabbed.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 27000013,
+      "image": "goblin_drill",
+      "name": "Goblin Drill",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 13,
+      "description": "A mischievous Spirit that leaps at enemies, dealing Damage and leaving behind a powerful healing effect that restores Hitpoints to friendly Troops!\n\nR.I.P. Heal\n2017 - 2020\nAlas, we hardly used ye.",
+      "elixir": 1,
+      "hitSpeed": 0,
+      "id": 28000016,
+      "image": "heal_spirit",
+      "name": "Heal Spirit",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 0,
+      "description": "Three fast, unarmored flying attackers. Roses are red, minions are blue, they can fly, and will crush you!",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 26000005,
+      "image": "minions",
+      "name": "Minions",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 8,
+      "description": "The bigger the skeleton, the bigger the bomb. Carries a bomb that blows up when the Giant Skeleton dies.",
+      "elixir": 6,
+      "hitSpeed": 1400,
+      "id": 26000020,
+      "image": "giant_skeleton",
+      "name": "Giant Skeleton",
+      "range": 800,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 11,
+      "description": "The Miner can burrow his way underground and appear anywhere in the Arena. It's not magic, it's a shovel. A shovel that deals reduced damage to Crown Towers.",
+      "elixir": 3,
+      "hitSpeed": 1200,
+      "id": 26000032,
+      "image": "miner",
+      "name": "Miner",
+      "range": 1200,
+      "rarity": "Legendary",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 8,
+      "description": "It's HUGE! Once it began rolling down Frozen Peak, there was no stopping it. Enemies hit are knocked back and slowed down. Reduced damage to Crown Towers.",
+      "elixir": 2,
+      "hitSpeed": 0,
+      "id": 28000017,
+      "image": "giant_snowball",
+      "name": "Giant Snowball",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 16,
+      "description": "A warrior with luxurious hair and outstanding flexibility. Demonstrates his aerobics skills on demand.",
+      "elixir": 4,
+      "hitSpeed": 900,
+      "id": 26000074,
+      "image": "golden_knight",
+      "name": "Golden Knight",
+      "range": 1200,
+      "rarity": "Champion",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 1,
+      "description": "Three unarmored ranged attackers. Who the heck taught these guys to throw spears!? Who thought that was a good idea?!",
+      "elixir": 2,
+      "hitSpeed": 0,
+      "id": 26000019,
+      "image": "spear_goblins",
+      "name": "Spear Goblins",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 4,
+      "description": "This pair of skeletal scorchers deal Area Damage and fly above the Arena. They also play a mean rib cage xylophone duet.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 26000080,
+      "image": "skeleton_dragons",
+      "name": "Skeleton Dragons",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 11,
+      "description": "Shoots a focused beam of fire that increases in damage over time. Wears a helmet because flying can be dangerous.",
+      "elixir": 4,
+      "hitSpeed": 400,
+      "id": 26000037,
+      "image": "inferno_dragon",
+      "name": "Inferno Dragon",
+      "range": 3500,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 2,
+      "description": "Tough melee fighter, deals area damage around her. Swarm or horde, no problem! She can take them all out with a few spins.",
+      "elixir": 4,
+      "hitSpeed": 1500,
+      "id": 26000011,
+      "image": "valkyrie",
+      "name": "Valkyrie",
+      "range": 1200,
+      "rarity": "Rare",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 15,
+      "description": "Deals high damage to a small area. Looks really awesome doing it. Reduced damage to Crown Towers.",
+      "elixir": 5,
+      "hitSpeed": 0,
+      "id": 28000020,
+      "image": "party_rocket",
+      "name": "Party Rocket",
+      "range": 0,
+      "rarity": "Legendary",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 10,
+      "description": "Defensive building. Whenever it's not zapping the enemy, the power of Electrickery is best kept grounded.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 27000006,
+      "image": "tesla",
+      "name": "Tesla",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 14,
+      "description": "He throws his axe like a boomerang, striking all enemies on the way out AND back. It's a miracle he doesn't lose an arm.",
+      "elixir": 5,
+      "hitSpeed": 900,
+      "id": 26000045,
+      "image": "executioner",
+      "name": "Executioner",
+      "range": 4500,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 13,
+      "description": "Not quite a Wizard, nor an Archer - he shoots a magic arrow that passes through and damages all enemies in its path. It's not a trick, it's magic!",
+      "elixir": 4,
+      "hitSpeed": 1100,
+      "id": 26000062,
+      "image": "magic_archer",
+      "name": "Magic Archer",
+      "range": 7000,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 4,
+      "description": "Defensive building that houses a Bomber. Deals area damage to anything dumb enough to stand near it.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 27000004,
+      "image": "bomb_tower",
+      "name": "Bomb Tower",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 12,
+      "description": "Surprise! It's a party. A Skeleton party, anywhere in the Arena. Yay!",
+      "elixir": 5,
+      "hitSpeed": 0,
+      "id": 28000010,
+      "image": "graveyard",
+      "name": "Graveyard",
+      "range": 0,
+      "rarity": "Legendary",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 7,
+      "description": "The King's personal pets are loose! They love to chomp on apples and towers alike - who let the hogs out?!",
+      "elixir": 5,
+      "hitSpeed": 0,
+      "id": 26000059,
+      "image": "royal_hogs",
+      "name": "Royal Hogs",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 14,
+      "description": "No need to sign for this package!\n\nDropped from the sky, it deals Area Damage to enemy Troops before delivering a Royal Recruit.\n\nThe empty box is also handy for espionage.",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 28000018,
+      "image": "royal_delivery",
+      "name": "Royal Delivery",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 7,
+      "description": "Trio of powerful, independent markswomen, fighting for justice and honor. Disrespecting them would not be just a mistake, it would be a cardinal sin!",
+      "elixir": 9,
+      "hitSpeed": 0,
+      "id": 26000028,
+      "image": "three_musketeers",
+      "name": "Three Musketeers",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 14,
+      "description": "Summons Bats to do her bidding! If you get too close, she's not afraid of pitching in with her mean-looking battle staff.",
+      "elixir": 4,
+      "hitSpeed": 1300,
+      "id": 26000048,
+      "image": "night_witch",
+      "name": "Night Witch",
+      "range": 1600,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 8,
+      "description": "Spawns one lively little Ice Spirit to freeze a group of enemies. Stay frosty.",
+      "elixir": 1,
+      "hitSpeed": 300,
+      "id": 26000030,
+      "image": "ice_spirit",
+      "name": "Ice Spirit",
+      "range": 2500,
+      "rarity": "Common",
+      "speed": 120,
+      "type": "Troop"
+    },
+    {
+      "arena": 10,
+      "description": "Six fast, unarmored flying attackers. Three's a crowd, six is a horde!",
+      "elixir": 5,
+      "hitSpeed": 0,
+      "id": 26000022,
+      "image": "minion_horde",
+      "name": "Minion Horde",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 14,
+      "description": "Increases troop movement and attack speed. Buildings attack faster and summon troops quicker, too. Chaaaarge!",
+      "elixir": 2,
+      "hitSpeed": 0,
+      "id": 28000002,
+      "image": "rage",
+      "name": "Rage",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 10,
+      "description": "Building that spawns Spear Goblins. Don't look inside... you don't want to see how they're made.",
+      "elixir": 5,
+      "hitSpeed": 0,
+      "id": 27000014,
+      "image": "party_hut",
+      "name": "Party Hut",
+      "range": 0,
+      "rarity": "Legendary",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 11,
+      "description": "Sparky slowly charges up, then unloads MASSIVE area damage. Overkill isn't in her vocabulary.",
+      "elixir": 6,
+      "hitSpeed": 4000,
+      "id": 26000033,
+      "image": "sparky",
+      "name": "Sparky",
+      "range": 5000,
+      "rarity": "Legendary",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 12,
+      "description": "This chill caster throws ice shards that slow down enemies' movement and attack speed. Despite being freezing cold, he has a handlebar mustache that's too hot for TV.",
+      "elixir": 3,
+      "hitSpeed": 1700,
+      "id": 26000023,
+      "image": "ice_wizard",
+      "name": "Ice Wizard",
+      "range": 5500,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 5,
+      "description": "Fast melee troop that targets buildings and can jump over the river. He followed the echoing call of \"Hog Riderrrrr\" all the way through the Arena doors.",
+      "elixir": 5,
+      "hitSpeed": 1600,
+      "id": 26000073,
+      "image": "santa_hog_rider",
+      "name": "Santa Hog Rider",
+      "range": 800,
+      "rarity": "Legendary",
+      "speed": 120,
+      "type": "Troop"
+    },
+    {
+      "arena": 6,
+      "description": "A heavily armored, slow melee fighter. Swings from the hip, but packs a huge punch.",
+      "elixir": 7,
+      "hitSpeed": 1800,
+      "id": 26000004,
+      "image": "p.e.k.k.a",
+      "name": "P.E.K.K.A",
+      "range": 1200,
+      "rarity": "Epic",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 15,
+      "description": "Drags enemy troops to its center while dealing damage over time, just like a magnet. A big, swirling, Tornado-y magnet.",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 28000012,
+      "image": "tornado",
+      "name": "Tornado",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 10,
+      "description": "Nice tower you got there. Would be a shame if this X-Bow whittled it down from this side of the Arena...",
+      "elixir": 6,
+      "hitSpeed": 0,
+      "id": 27000008,
+      "image": "x-bow",
+      "name": "X-Bow",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 6,
+      "description": "Summons Skeletons, shoots destructo beams, has glowing pink eyes that unfortunately don't shoot lasers.",
+      "elixir": 5,
+      "hitSpeed": 1100,
+      "id": 26000007,
+      "image": "witch",
+      "name": "Witch",
+      "range": 5500,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 7,
+      "description": "Destroying enemy buildings with his massive cannon is his job; making a raggedy blond beard look good is his passion.",
+      "elixir": 6,
+      "hitSpeed": 1700,
+      "id": 26000024,
+      "image": "royal_giant",
+      "name": "Royal Giant",
+      "range": 5000,
+      "rarity": "Common",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 3,
+      "description": "A horde of melee attackers with mean mustaches and even meaner tempers.",
+      "elixir": 5,
+      "hitSpeed": 0,
+      "id": 26000008,
+      "image": "barbarians",
+      "name": "Barbarians",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 8,
+      "description": "Freezes and damages enemy troops and buildings, making them unable to move or attack. Everybody chill. Reduced damage to Crown Towers.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 28000005,
+      "image": "freeze",
+      "name": "Freeze",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 6,
+      "description": "Spawns an army of Skeletons. Meet Larry and his friends Harry, Gerry, Terry, Mary, etc.",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 26000012,
+      "image": "skeleton_army",
+      "name": "Skeleton Army",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 12,
+      "description": "Spits out bolts of electricity hitting up to three targets. Suffers from middle child syndrome to boot.",
+      "elixir": 5,
+      "hitSpeed": 2100,
+      "id": 26000063,
+      "image": "electro_dragon",
+      "name": "Electro Dragon",
+      "range": 3500,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 8,
+      "description": "He's tough, targets buildings and explodes when destroyed, slowing nearby enemies. Made entirely out of ice... or is he?! Yes.",
+      "elixir": 4,
+      "hitSpeed": 2500,
+      "id": 26000075,
+      "image": "super_ice_golem",
+      "name": "Super Ice Golem",
+      "range": 750,
+      "rarity": "Legendary",
+      "speed": 30,
+      "type": "Troop"
+    },
+    {
+      "arena": 15,
+      "description": "Places a curse on enemy Troops with each attack. When a cursed Troop is destroyed, it turns into a building-targeting Hog that fights alongside the Mother Witch!\n\nShe also bakes great cookies.",
+      "elixir": 4,
+      "hitSpeed": 1000,
+      "id": 26000083,
+      "image": "mother_witch",
+      "name": "Mother Witch",
+      "range": 5500,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 16,
+      "description": "The King of the undead himself. He sometimes feels lonely (could be due to his non flattering features) and will summon friends to join him in the battle even after death. Tough guys have feelings too!",
+      "elixir": 4,
+      "hitSpeed": 1600,
+      "id": 26000069,
+      "image": "skeleton_king",
+      "name": "Skeleton King",
+      "range": 1200,
+      "rarity": "Champion",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 10,
+      "description": "Spawns a pair of leveled up Barbarians. They're like regular Barbarians, only harder, better, faster and stronger.",
+      "elixir": 6,
+      "hitSpeed": 0,
+      "id": 26000043,
+      "image": "elite_barbarians",
+      "name": "Elite Barbarians",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 9,
+      "description": "It's a Skeleton party in the sky, until all the balloons pop... then it's a Skeleton party on the ground!",
+      "elixir": 3,
+      "hitSpeed": 300,
+      "id": 26000056,
+      "image": "skeleton_barrel",
+      "name": "Skeleton Barrel",
+      "range": 350,
+      "rarity": "Common",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 12,
+      "description": "He drifts invisibly through the Arena until he's startled by an enemy... then he attacks! Then he's invisible again! Zzzz.",
+      "elixir": 3,
+      "hitSpeed": 1800,
+      "id": 26000050,
+      "image": "royal_ghost",
+      "name": "Royal Ghost",
+      "range": 1200,
+      "rarity": "Legendary",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 10,
+      "description": "The Furnace spawns one Fire Spirit at a time. It also makes great brick-oven pancakes.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 27000010,
+      "image": "furnace",
+      "name": "Furnace",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 3,
+      "description": "Two Barbarians holding a big log charge at the nearest building, dealing significant damage if they connect; then they go to town with their swords!",
+      "elixir": 4,
+      "hitSpeed": 400,
+      "id": 26000036,
+      "image": "battle_ram",
+      "name": "Battle Ram",
+      "range": 500,
+      "rarity": "Rare",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 4,
+      "description": "Defensive building, roasts targets for damage that increases over time. Burns through even the biggest and toughest enemies!",
+      "elixir": 5,
+      "hitSpeed": 0,
+      "id": 27000003,
+      "image": "inferno_tower",
+      "name": "Inferno Tower",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 6,
+      "description": "Three ruthless bone brothers with shields. Knock off their shields and all that's left are three ruthless bone brothers.",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 26000025,
+      "image": "guards",
+      "name": "Guards",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 1,
+      "description": "Four fast, unarmored melee attackers. Small, fast, green and mean!",
+      "elixir": 2,
+      "hitSpeed": 0,
+      "id": 26000002,
+      "image": "goblins",
+      "name": "Goblins",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 17,
+      "description": "She is fast, deadly and hard to catch. Beware of her crossbow bolts and try not to blink - you might miss her!",
+      "elixir": 5,
+      "hitSpeed": 1200,
+      "id": 26000072,
+      "image": "archer_queen",
+      "name": "Archer Queen",
+      "range": 5000,
+      "rarity": "Champion",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 8,
+      "description": "He's tough, targets buildings and explodes when destroyed, slowing nearby enemies. Made entirely out of ice... or is he?! Yes.",
+      "elixir": 2,
+      "hitSpeed": 2500,
+      "id": 26000038,
+      "image": "ice_golem",
+      "name": "Ice Golem",
+      "range": 750,
+      "rarity": "Rare",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 12,
+      "description": "A daring duo of dangerous dive bombers. Nothing warms a Wall Breaker's cold and undead heart like blowing up buildings.",
+      "elixir": 2,
+      "hitSpeed": 0,
+      "id": 26000058,
+      "image": "wall_breakers",
+      "name": "Wall Breakers",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 10,
+      "description": "The Lava Hound is a majestic flying beast that attacks buildings. The Lava Pups are less majestic angry babies that attack anything.",
+      "elixir": 8,
+      "hitSpeed": 1300,
+      "id": 26000070,
+      "image": "super_lava_hound",
+      "name": "Super Lava Hound",
+      "range": 3500,
+      "rarity": "Legendary",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 2,
+      "description": "Three fast, very weak melee fighters. Surround your enemies with this pile of bones!",
+      "elixir": 1,
+      "hitSpeed": 0,
+      "id": 26000010,
+      "image": "skeletons",
+      "name": "Skeletons",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 7,
+      "description": "Don't let the little pony fool you. Once the Prince gets a running start, you WILL be trampled. Deals double damage once he gets charging.",
+      "elixir": 5,
+      "hitSpeed": 1400,
+      "id": 26000016,
+      "image": "prince",
+      "name": "Prince",
+      "range": 1600,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 7,
+      "description": "The Dark Prince deals area damage and lets his spiked club do the talking for him - because when he does talk, it sounds like he has a bucket on his head.",
+      "elixir": 4,
+      "hitSpeed": 1300,
+      "id": 26000027,
+      "image": "dark_prince",
+      "name": "Dark Prince",
+      "range": 1200,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 5,
+      "description": "The Master Builder has sent his first contraption to the Arena! It's a fast and fun flying machine, but fragile!",
+      "elixir": 4,
+      "hitSpeed": 1100,
+      "id": 26000057,
+      "image": "flying_machine",
+      "name": "Flying Machine",
+      "range": 6000,
+      "rarity": "Rare",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 1,
+      "description": "Building that spawns Spear Goblins. Don't look inside... you don't want to see how they're made.",
+      "elixir": 5,
+      "hitSpeed": 0,
+      "id": 27000001,
+      "image": "goblin_hut",
+      "name": "Goblin Hut",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 0,
+      "description": "A tough melee fighter. The Barbarian's handsome, cultured cousin. Rumor has it that he was knighted based on the sheer awesomeness of his mustache alone.",
+      "elixir": 3,
+      "hitSpeed": 1200,
+      "id": 26000000,
+      "image": "knight",
+      "name": "Knight",
+      "range": 1200,
+      "rarity": "Common",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 11,
+      "description": "He lands with the force of 1,000 mustaches, then jumps from one foe to the next dealing huge area damage. Stand aside!",
+      "elixir": 7,
+      "hitSpeed": 1700,
+      "id": 26000055,
+      "image": "mega_knight",
+      "name": "Mega Knight",
+      "range": 1200,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 5,
+      "description": "Fast melee troop that targets buildings and can jump over the river. He followed the echoing call of \"Hog Riderrrrr\" all the way through the Arena doors.",
+      "elixir": 4,
+      "hitSpeed": 1600,
+      "id": 26000021,
+      "image": "hog_rider",
+      "name": "Hog Rider",
+      "range": 800,
+      "rarity": "Rare",
+      "speed": 120,
+      "type": "Troop"
+    },
+    {
+      "arena": 17,
+      "description": "Walk softly ... and carry a big drill!\n\nThis Champion deals increasing Damage to his target and can switch lanes to escape combat or change attack plans.\n\nThis makes him not only the mightiest, but also the sneakiest Miner in the Arena.",
+      "elixir": 4,
+      "hitSpeed": 400,
+      "id": 26000065,
+      "image": "mighty_miner",
+      "name": "Mighty Miner",
+      "range": 1600,
+      "rarity": "Champion",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 9,
+      "description": "It rolls over and damages anything in its path, then breaks open and out pops a Barbarian! How did he get inside?!",
+      "elixir": 2,
+      "hitSpeed": 0,
+      "id": 28000015,
+      "image": "barbarian_barrel",
+      "name": "Barbarian Barrel",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 13,
+      "description": "Spawns a mischievous trio of Rascals! The boy takes the lead, while the girls pelt enemies from behind... with slingshots full of Double Trouble Gum!",
+      "elixir": 5,
+      "hitSpeed": 0,
+      "id": 26000053,
+      "image": "rascals",
+      "name": "Rascals",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 8,
+      "description": "With each attack, she unleashes a powerful healing aura that restores Hitpoints to herself and friendly Troops. When she isn't attacking, she passively heals herself!",
+      "elixir": 4,
+      "hitSpeed": 1500,
+      "id": 26000068,
+      "image": "battle_healer",
+      "name": "Battle Healer",
+      "range": 1600,
+      "rarity": "Rare",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 6,
+      "description": "Spawns three Goblins anywhere in the Arena. It's going to be a thrilling ride, boys!",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 28000004,
+      "image": "goblin_barrel",
+      "name": "Goblin Barrel",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 14,
+      "description": "The Arena is a certified butterfly-free zone. No distractions for P.E.K.K.A, only destruction.",
+      "elixir": 5,
+      "hitSpeed": 1600,
+      "id": 26000082,
+      "image": "super_mini_p.e.k.k.a",
+      "name": "Super Mini P.E.K.K.A",
+      "range": 800,
+      "rarity": "Legendary",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 15,
+      "description": "His Ranged Attack can pull enemies towards him, and pull himself to enemy buildings. He's also mastered the ancient art of 'Fish Slapping'.",
+      "elixir": 3,
+      "hitSpeed": 1300,
+      "id": 26000061,
+      "image": "fisherman",
+      "name": "Fisherman",
+      "range": 1200,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 15,
+      "description": "You gotta spend Elixir to make Elixir! This building makes 8 Elixir over its Lifetime. Does not appear in your starting hand.",
+      "elixir": 6,
+      "hitSpeed": 0,
+      "id": 27000007,
+      "image": "elixir_collector",
+      "name": "Elixir Collector",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 9,
+      "description": "This jolly green Goblin Giant stomps towards enemy buildings. He carries two Spear Goblins everywhere he goes. It's a weird but functional arrangement.",
+      "elixir": 6,
+      "hitSpeed": 1500,
+      "id": 26000060,
+      "image": "goblin_giant",
+      "name": "Goblin Giant",
+      "range": 1200,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 0,
+      "description": "Slow but durable, only attacks buildings. A real one-man wrecking crew!",
+      "elixir": 5,
+      "hitSpeed": 1500,
+      "id": 26000003,
+      "image": "giant",
+      "name": "Giant",
+      "range": 1200,
+      "rarity": "Rare",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 10,
+      "description": "Spawns a pack of miniature Zap machines. Who controls them...? Only the Master Builder knows.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 26000052,
+      "image": "zappies",
+      "name": "Zappies",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 15,
+      "description": "Mirrors your last card played for +1 Elixir. Does not appear in your starting hand.",
+      "elixir": 1,
+      "hitSpeed": 0,
+      "id": 28000006,
+      "image": "mirror",
+      "name": "Mirror",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 14,
+      "description": "He chops trees by day and hunts The Log by night. His bottle of Rage spills everywhere when he's defeated.",
+      "elixir": 4,
+      "hitSpeed": 800,
+      "id": 26000035,
+      "image": "lumberjack",
+      "name": "Lumberjack",
+      "range": 700,
+      "rarity": "Legendary",
+      "speed": 120,
+      "type": "Troop"
+    },
+    {
+      "arena": 3,
+      "description": "Defensive building. Shoots cannonballs with deadly effect, but cannot target flying troops.",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 27000000,
+      "image": "cannon",
+      "name": "Cannon",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 0,
+      "description": "A pair of lightly armored ranged attackers. They'll help you take down ground and air units, but you're on your own with hair coloring advice.",
+      "elixir": 3,
+      "hitSpeed": 900,
+      "id": 26000001,
+      "image": "archers",
+      "name": "Archers",
+      "range": 5000,
+      "rarity": "Common",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 11,
+      "description": "This stunning Princess shoots flaming arrows from long range. If you're feeling warm feelings towards her, it's probably because you're on fire.",
+      "elixir": 3,
+      "hitSpeed": 3000,
+      "id": 26000026,
+      "image": "princess",
+      "name": "Princess",
+      "range": 9000,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 13,
+      "description": "The Bandit dashes to her target and delivers an extra big hit! While dashing, she can't be touched. The mask keeps her identity safe, and gives her bonus cool points!",
+      "elixir": 3,
+      "hitSpeed": 1000,
+      "id": 26000046,
+      "image": "bandit",
+      "name": "Bandit",
+      "range": 750,
+      "rarity": "Legendary",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 6,
+      "description": "Burps fireballs from the sky that deal area damage. Baby dragons hatch cute, hungry and ready for a barbeque.",
+      "elixir": 4,
+      "hitSpeed": 1500,
+      "id": 26000015,
+      "image": "baby_dragon",
+      "name": "Baby Dragon",
+      "range": 3500,
+      "rarity": "Epic",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 13,
+      "description": "Not quite a Wizard, nor an Archer - he shoots a magic arrow that passes through and damages all enemies in its path. It's not a trick, it's magic!",
+      "elixir": 5,
+      "hitSpeed": 2000,
+      "id": 26000071,
+      "image": "super_magic_archer",
+      "name": "Super Magic Archer",
+      "range": 7000,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 0,
+      "description": "Arrows pepper a large area, damaging all enemies hit. Reduced damage to Crown Towers.",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 28000001,
+      "image": "arrows",
+      "name": "Arrows",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 5,
+      "description": "Deals high damage to a small area. Looks really awesome doing it. Reduced damage to Crown Towers.",
+      "elixir": 6,
+      "hitSpeed": 0,
+      "id": 28000003,
+      "image": "rocket",
+      "name": "Rocket",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 15,
+      "description": "A Cannon on wheels?! Bet they won't see that coming! Once you break its shield, it becomes a Cannon not on wheels.",
+      "elixir": 5,
+      "hitSpeed": 1000,
+      "id": 26000054,
+      "image": "cannon_cart",
+      "name": "Cannon Cart",
+      "range": 5500,
+      "rarity": "Epic",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 7,
+      "description": "Deploys a line of recruits armed with spears, shields and wooden buckets. They dream of ponies and one day wearing metal buckets.",
+      "elixir": 7,
+      "hitSpeed": 0,
+      "id": 26000047,
+      "image": "royal_recruits",
+      "name": "Royal Recruits",
+      "range": 0,
+      "rarity": "Common",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 12,
+      "description": "Deals Damage per second to Troops and Crown Towers. Deals huge Building Damage! Does not affect flying units (it is an EARTHquake, after all).",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 28000014,
+      "image": "earthquake",
+      "name": "Earthquake",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 4,
+      "description": "The Fire Spirit is on a kamikaze mission to give you a warm hug. It'd be adorable if it wasn't on fire.",
+      "elixir": 1,
+      "hitSpeed": 300,
+      "id": 26000031,
+      "image": "fire_spirit",
+      "name": "Fire Spirit",
+      "range": 2000,
+      "rarity": "Common",
+      "speed": 120,
+      "type": "Troop"
+    },
+    {
+      "arena": 12,
+      "description": "This mystical creature will be reborn as an egg when destroyed. If it hatches, it returns to the fight! What an egg-cellent ability.\n\nBeing born again is tiring, so a hatched Phoenix will have slightly less Hitpoints and Damage (80% of its total).",
+      "elixir": 4,
+      "hitSpeed": 1000,
+      "id": 26000087,
+      "image": "phoenix",
+      "name": "Phoenix",
+      "range": 1600,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 24,
+      "description": "A pair of lightly armored ranged attackers. They'll help you take down ground and air units, but you're on your own with hair coloring advice.",
+      "elixir": 3,
+      "hitSpeed": 2000,
+      "id": 26000078,
+      "image": "super_archers",
+      "name": "Super Archers",
+      "range": 5000,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 18,
+      "description": "Monk has spent many isolated years perfecting a new style of combat.\n\nHe fires off a 3-hit combo, with the last blow dealing extra Damage and pushing enemies back!",
+      "elixir": 5,
+      "hitSpeed": 800,
+      "id": 26000077,
+      "image": "monk",
+      "name": "Monk",
+      "range": 1200,
+      "rarity": "Champion",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 13,
+      "description": "This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders roll through their target, hitting everything behind for a strike!",
+      "elixir": 5,
+      "hitSpeed": 2500,
+      "id": 26000034,
+      "image": "bowler",
+      "name": "Bowler",
+      "range": 4000,
+      "rarity": "Epic",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 14,
+      "description": "Splits into two Elixir Golemites when destroyed, which split into two sentient Blobs when defeated. Each part of the Elixir Golem gives your opponent some Elixir when destroyed!",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 26000067,
+      "image": "elixir_golem",
+      "name": "Elixir Golem",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Troop"
+    },
+    {
+      "arena": 12,
+      "description": "Shoots a firework that explodes upon impact, damaging the target and showering anything directly behind it with sparks. This is what happens when Archers get bored!",
+      "elixir": 3,
+      "hitSpeed": 3000,
+      "id": 26000064,
+      "image": "firecracker",
+      "name": "Firecracker",
+      "range": 6000,
+      "rarity": "Common",
+      "speed": 90,
+      "type": "Troop"
+    },
+    {
+      "arena": 5,
+      "description": "Summons Skeletons, shoots destructo beams, has glowing pink eyes that unfortunately don't shoot lasers.",
+      "elixir": 6,
+      "hitSpeed": 1100,
+      "id": 26000066,
+      "image": "super_witch",
+      "name": "Super Witch",
+      "range": 5500,
+      "rarity": "Legendary",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 15,
+      "description": "Duplicates all friendly troops in the target area. Cloned troops are fragile, but pack the same punch as the original! Doesn't affect buildings.",
+      "elixir": 3,
+      "hitSpeed": 0,
+      "id": 28000013,
+      "image": "clone",
+      "name": "Clone",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 0,
+      "description": "Don't be fooled by her delicately coiffed hair, the Musketeer is a mean shot with her trusty boomstick.",
+      "elixir": 4,
+      "hitSpeed": 1000,
+      "id": 26000014,
+      "image": "musketeer",
+      "name": "Musketeer",
+      "range": 6000,
+      "rarity": "Rare",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 3,
+      "description": "Flying, armored and powerful. What could be its weakness?! Cupcakes.",
+      "elixir": 3,
+      "hitSpeed": 1500,
+      "id": 26000039,
+      "image": "mega_minion",
+      "name": "Mega Minion",
+      "range": 1600,
+      "rarity": "Rare",
+      "speed": 60,
+      "type": "Troop"
+    },
+    {
+      "arena": 13,
+      "description": "He channels electricity through his Zap Pack, a unique device that stuns and damages any Troop attacking him within its range.\n\nDon't tell him that his finger guns aren't real! He'll zap you.",
+      "elixir": 7,
+      "hitSpeed": 2100,
+      "id": 26000085,
+      "image": "electro_giant",
+      "name": "Electro Giant",
+      "range": 1200,
+      "rarity": "Epic",
+      "speed": 45,
+      "type": "Troop"
+    },
+    {
+      "arena": 1,
+      "description": "When the Goblin Cage is destroyed, a Goblin Brawler is unleashed into the Arena! Goblin Brawler always skips leg day.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 27000012,
+      "image": "goblin_cage",
+      "name": "Goblin Cage",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 8,
+      "description": "Bolts of lightning damage and stun up to three enemy troops or buildings with the most hitpoints in the target area. Reduced damage to Crown Towers.",
+      "elixir": 6,
+      "hitSpeed": 0,
+      "id": 28000007,
+      "image": "lightning",
+      "name": "Lightning",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 9,
+      "description": "Covers the area in a deadly toxin, damaging enemy troops and buildings over time. Yet somehow leaves the grass green and healthy. Go figure! Reduced damage to Crown Towers.",
+      "elixir": 4,
+      "hitSpeed": 0,
+      "id": 28000009,
+      "image": "poison",
+      "name": "Poison",
+      "range": 0,
+      "rarity": "Epic",
+      "speed": 0,
+      "type": "Spell"
+    },
+    {
+      "arena": 9,
+      "description": "Building that periodically spawns Barbarians to fight the enemy. Time to make the Barbarians!",
+      "elixir": 6,
+      "hitSpeed": 0,
+      "id": 27000005,
+      "image": "barbarian_hut",
+      "name": "Barbarian Hut",
+      "range": 0,
+      "rarity": "Rare",
+      "speed": 0,
+      "type": "Building"
+    },
+    {
+      "arena": 9,
+      "description": "Runs fast, shoots far and chews gum. How does he blow darts with a mouthful of Double Trouble Gum? Years of didgeridoo lessons.",
+      "elixir": 3,
+      "hitSpeed": 700,
+      "id": 26000040,
+      "image": "dart_goblin",
+      "name": "Dart Goblin",
+      "range": 6500,
+      "rarity": "Rare",
+      "speed": 120,
+      "type": "Troop"
+    },
+    {
+      "arena": 4,
+      "description": "The most awesome man to ever set foot in the Arena, the Wizard will blow you away with his handsomeness... and/or fireballs.",
+      "elixir": 5,
+      "hitSpeed": 1400,
+      "id": 26000017,
+      "image": "wizard",
+      "name": "Wizard",
+      "range": 5500,
+      "rarity": "Rare",
+      "speed": 60,
+      "type": "Troop"
+    }
+  ],
+  "players": [
+    {
+      "birthdate": "2002-06-27",
+      "country": "Spain",
+      "flag": "es",
+      "id": 1,
+      "name": "Valeria",
+      "surname": "Sánchez",
+      "team": "SKCalalas"
+    },
+    {
+      "birthdate": "2000-10-11",
+      "country": "Chile",
+      "flag": "cl",
+      "id": 2,
+      "name": "Ana",
+      "surname": "Muñoz",
+      "team": "SKCalalas"
+    },
+    {
+      "birthdate": "1999-03-12",
+      "country": "Venezuela",
+      "flag": "ve",
+      "id": 3,
+      "name": "Sofía",
+      "surname": "Iglesias",
+      "team": "Fennel"
+    },
+    {
+      "birthdate": "2000-07-07",
+      "country": "Venezuela",
+      "flag": "ve",
+      "id": 4,
+      "name": "Luis",
+      "surname": "Dominguez",
+      "team": "Tribe Gaming"
+    },
+    {
+      "birthdate": "2007-02-15",
+      "country": "Spain",
+      "flag": "es",
+      "id": 5,
+      "name": "Carlos",
+      "surname": "Marín",
+      "team": "SKCalalas"
+    },
+    {
+      "birthdate": "1997-05-21",
+      "country": "Nicaragua",
+      "flag": "ni",
+      "id": 6,
+      "name": "Ricardo",
+      "surname": "Arias",
+      "team": "Tribe Gaming"
+    },
+    {
+      "birthdate": "2007-01-01",
+      "country": "Bolivia",
+      "flag": "bo",
+      "id": 7,
+      "name": "Diego",
+      "surname": "Molina",
+      "team": "Team Liquid"
+    },
+    {
+      "birthdate": "2007-05-22",
+      "country": "Mexico",
+      "flag": "mx",
+      "id": 8,
+      "name": "Elena",
+      "surname": "Rodríguez",
+      "team": "STMN Esports"
+    },
+    {
+      "birthdate": "2002-05-19",
+      "country": "Ecuador",
+      "flag": "ec",
+      "id": 9,
+      "name": "Rosa",
+      "surname": "Serrano",
+      "team": "Olimpo Squad"
+    },
+    {
+      "birthdate": "1999-12-16",
+      "country": "Colombia",
+      "flag": "co",
+      "id": 10,
+      "name": "Eva",
+      "surname": "Hernández",
+      "team": "Tribe Gaming"
+    },
+    {
+      "birthdate": "2003-06-21",
+      "country": "Venezuela",
+      "flag": "ve",
+      "id": 11,
+      "name": "Roberto",
+      "surname": "Martínez",
+      "team": "STMN Esports"
+    },
+    {
+      "birthdate": "2002-09-14",
+      "country": "Argentina",
+      "flag": "ar",
+      "id": 12,
+      "name": "Javier",
+      "surname": "Sánchez",
+      "team": "Tribe Gaming"
+    },
+    {
+      "birthdate": "2003-08-22",
+      "country": "Nicaragua",
+      "flag": "ni",
+      "id": 13,
+      "name": "Isabel",
+      "surname": "Romero",
+      "team": "SK Gaming"
+    },
+    {
+      "birthdate": "2000-03-19",
+      "country": "Argentina",
+      "flag": "ar",
+      "id": 14,
+      "name": "Silvia",
+      "surname": "Ramírez",
+      "team": "APAC"
+    },
+    {
+      "birthdate": "1997-09-07",
+      "country": "Venezuela",
+      "flag": "ve",
+      "id": 15,
+      "name": "Ricardo",
+      "surname": "Romero",
+      "team": "Team Liquid"
+    },
+    {
+      "birthdate": "1998-07-05",
+      "country": "Bolivia",
+      "flag": "bo",
+      "id": 16,
+      "name": "Silvia",
+      "surname": "Rubio",
+      "team": "Raccoon"
+    },
+    {
+      "birthdate": "2002-01-23",
+      "country": "Peru",
+      "flag": "pe",
+      "id": 17,
+      "name": "Teresa",
+      "surname": "Muñoz",
+      "team": "SK Gaming"
+    },
+    {
+      "birthdate": "2004-09-26",
+      "country": "Uruguay",
+      "flag": "uy",
+      "id": 18,
+      "name": "Silvia",
+      "surname": "Pérez",
+      "team": "Tribe Gaming"
+    },
+    {
+      "birthdate": "2006-01-25",
+      "country": "Mexico",
+      "flag": "mx",
+      "id": 19,
+      "name": "Javier",
+      "surname": "López",
+      "team": "Team Liquid"
+    },
+    {
+      "birthdate": "2003-04-08",
+      "country": "Venezuela",
+      "flag": "ve",
+      "id": 20,
+      "name": "David",
+      "surname": "Herrera",
+      "team": "STMN Esports"
+    }
+  ],
+  "matches": [
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 1,
+      "idPlayer1": 1,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 2,
+      "idPlayer1": 1,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 3,
+      "idPlayer1": 1,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 4,
+      "idPlayer1": 1,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 5,
+      "idPlayer1": 1,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 6,
+      "idPlayer1": 1,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 7,
+      "idPlayer1": 1,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 8,
+      "idPlayer1": 1,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 9,
+      "idPlayer1": 1,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 10,
+      "idPlayer1": 1,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 11,
+      "idPlayer1": 1,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 12,
+      "idPlayer1": 1,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 13,
+      "idPlayer1": 1,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 14,
+      "idPlayer1": 1,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 15,
+      "idPlayer1": 1,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 16,
+      "idPlayer1": 1,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 17,
+      "idPlayer1": 1,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 18,
+      "idPlayer1": 1,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 19,
+      "idPlayer1": 1,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 20,
+      "idPlayer1": 2,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 21,
+      "idPlayer1": 2,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 22,
+      "idPlayer1": 2,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 23,
+      "idPlayer1": 2,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 24,
+      "idPlayer1": 2,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 25,
+      "idPlayer1": 2,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 26,
+      "idPlayer1": 2,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 27,
+      "idPlayer1": 2,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 28,
+      "idPlayer1": 2,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 29,
+      "idPlayer1": 2,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 30,
+      "idPlayer1": 2,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 31,
+      "idPlayer1": 2,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 32,
+      "idPlayer1": 2,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 33,
+      "idPlayer1": 2,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 34,
+      "idPlayer1": 2,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 35,
+      "idPlayer1": 2,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 36,
+      "idPlayer1": 2,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 37,
+      "idPlayer1": 2,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 38,
+      "idPlayer1": 2,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 39,
+      "idPlayer1": 3,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 40,
+      "idPlayer1": 3,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 41,
+      "idPlayer1": 3,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 42,
+      "idPlayer1": 3,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 43,
+      "idPlayer1": 3,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 44,
+      "idPlayer1": 3,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 45,
+      "idPlayer1": 3,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 46,
+      "idPlayer1": 3,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 47,
+      "idPlayer1": 3,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 48,
+      "idPlayer1": 3,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 49,
+      "idPlayer1": 3,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 50,
+      "idPlayer1": 3,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 51,
+      "idPlayer1": 3,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 52,
+      "idPlayer1": 3,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 53,
+      "idPlayer1": 3,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 54,
+      "idPlayer1": 3,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 55,
+      "idPlayer1": 3,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 56,
+      "idPlayer1": 3,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 57,
+      "idPlayer1": 3,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 58,
+      "idPlayer1": 4,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 59,
+      "idPlayer1": 4,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 60,
+      "idPlayer1": 4,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 61,
+      "idPlayer1": 4,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 62,
+      "idPlayer1": 4,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 63,
+      "idPlayer1": 4,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 64,
+      "idPlayer1": 4,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 65,
+      "idPlayer1": 4,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 66,
+      "idPlayer1": 4,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 67,
+      "idPlayer1": 4,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 68,
+      "idPlayer1": 4,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 69,
+      "idPlayer1": 4,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 70,
+      "idPlayer1": 4,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 71,
+      "idPlayer1": 4,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 72,
+      "idPlayer1": 4,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 73,
+      "idPlayer1": 4,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 74,
+      "idPlayer1": 4,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 75,
+      "idPlayer1": 4,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 76,
+      "idPlayer1": 4,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 77,
+      "idPlayer1": 5,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 78,
+      "idPlayer1": 5,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 79,
+      "idPlayer1": 5,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 80,
+      "idPlayer1": 5,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 81,
+      "idPlayer1": 5,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 82,
+      "idPlayer1": 5,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 83,
+      "idPlayer1": 5,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 84,
+      "idPlayer1": 5,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 85,
+      "idPlayer1": 5,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 86,
+      "idPlayer1": 5,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 87,
+      "idPlayer1": 5,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 88,
+      "idPlayer1": 5,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 89,
+      "idPlayer1": 5,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 90,
+      "idPlayer1": 5,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 91,
+      "idPlayer1": 5,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 92,
+      "idPlayer1": 5,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 93,
+      "idPlayer1": 5,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 94,
+      "idPlayer1": 5,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 95,
+      "idPlayer1": 5,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 96,
+      "idPlayer1": 6,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 97,
+      "idPlayer1": 6,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 98,
+      "idPlayer1": 6,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 99,
+      "idPlayer1": 6,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 100,
+      "idPlayer1": 6,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 101,
+      "idPlayer1": 6,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 102,
+      "idPlayer1": 6,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 103,
+      "idPlayer1": 6,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 104,
+      "idPlayer1": 6,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 105,
+      "idPlayer1": 6,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 106,
+      "idPlayer1": 6,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 107,
+      "idPlayer1": 6,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 108,
+      "idPlayer1": 6,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 109,
+      "idPlayer1": 6,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 110,
+      "idPlayer1": 6,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 111,
+      "idPlayer1": 6,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 112,
+      "idPlayer1": 6,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 113,
+      "idPlayer1": 6,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 114,
+      "idPlayer1": 6,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 115,
+      "idPlayer1": 7,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 116,
+      "idPlayer1": 7,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 117,
+      "idPlayer1": 7,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 118,
+      "idPlayer1": 7,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 119,
+      "idPlayer1": 7,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 120,
+      "idPlayer1": 7,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 121,
+      "idPlayer1": 7,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 122,
+      "idPlayer1": 7,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 123,
+      "idPlayer1": 7,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 124,
+      "idPlayer1": 7,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 125,
+      "idPlayer1": 7,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 126,
+      "idPlayer1": 7,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 127,
+      "idPlayer1": 7,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 128,
+      "idPlayer1": 7,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 129,
+      "idPlayer1": 7,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 130,
+      "idPlayer1": 7,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 131,
+      "idPlayer1": 7,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 132,
+      "idPlayer1": 7,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 133,
+      "idPlayer1": 7,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 134,
+      "idPlayer1": 8,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 135,
+      "idPlayer1": 8,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 136,
+      "idPlayer1": 8,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 137,
+      "idPlayer1": 8,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 138,
+      "idPlayer1": 8,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 139,
+      "idPlayer1": 8,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 140,
+      "idPlayer1": 8,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 141,
+      "idPlayer1": 8,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 142,
+      "idPlayer1": 8,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 143,
+      "idPlayer1": 8,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 144,
+      "idPlayer1": 8,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 145,
+      "idPlayer1": 8,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 146,
+      "idPlayer1": 8,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 147,
+      "idPlayer1": 8,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 148,
+      "idPlayer1": 8,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 149,
+      "idPlayer1": 8,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 150,
+      "idPlayer1": 8,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 151,
+      "idPlayer1": 8,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 152,
+      "idPlayer1": 8,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 153,
+      "idPlayer1": 9,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 154,
+      "idPlayer1": 9,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 155,
+      "idPlayer1": 9,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 156,
+      "idPlayer1": 9,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 157,
+      "idPlayer1": 9,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 158,
+      "idPlayer1": 9,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 159,
+      "idPlayer1": 9,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 160,
+      "idPlayer1": 9,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 161,
+      "idPlayer1": 9,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 162,
+      "idPlayer1": 9,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 163,
+      "idPlayer1": 9,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 164,
+      "idPlayer1": 9,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 165,
+      "idPlayer1": 9,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 166,
+      "idPlayer1": 9,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 167,
+      "idPlayer1": 9,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 168,
+      "idPlayer1": 9,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 169,
+      "idPlayer1": 9,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 170,
+      "idPlayer1": 9,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 171,
+      "idPlayer1": 9,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 172,
+      "idPlayer1": 10,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 173,
+      "idPlayer1": 10,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 174,
+      "idPlayer1": 10,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 175,
+      "idPlayer1": 10,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 176,
+      "idPlayer1": 10,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 177,
+      "idPlayer1": 10,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 178,
+      "idPlayer1": 10,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 179,
+      "idPlayer1": 10,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 180,
+      "idPlayer1": 10,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 181,
+      "idPlayer1": 10,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 182,
+      "idPlayer1": 10,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 183,
+      "idPlayer1": 10,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 184,
+      "idPlayer1": 10,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 185,
+      "idPlayer1": 10,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 186,
+      "idPlayer1": 10,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 187,
+      "idPlayer1": 10,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 188,
+      "idPlayer1": 10,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 189,
+      "idPlayer1": 10,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 190,
+      "idPlayer1": 10,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 191,
+      "idPlayer1": 11,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 192,
+      "idPlayer1": 11,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 193,
+      "idPlayer1": 11,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 194,
+      "idPlayer1": 11,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 195,
+      "idPlayer1": 11,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 196,
+      "idPlayer1": 11,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 197,
+      "idPlayer1": 11,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 198,
+      "idPlayer1": 11,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 199,
+      "idPlayer1": 11,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 200,
+      "idPlayer1": 11,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 201,
+      "idPlayer1": 11,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 202,
+      "idPlayer1": 11,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 203,
+      "idPlayer1": 11,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 204,
+      "idPlayer1": 11,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 205,
+      "idPlayer1": 11,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 206,
+      "idPlayer1": 11,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 207,
+      "idPlayer1": 11,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 208,
+      "idPlayer1": 11,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 209,
+      "idPlayer1": 11,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 210,
+      "idPlayer1": 12,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 211,
+      "idPlayer1": 12,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 212,
+      "idPlayer1": 12,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 213,
+      "idPlayer1": 12,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 214,
+      "idPlayer1": 12,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 215,
+      "idPlayer1": 12,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 216,
+      "idPlayer1": 12,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 217,
+      "idPlayer1": 12,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 218,
+      "idPlayer1": 12,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 219,
+      "idPlayer1": 12,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 220,
+      "idPlayer1": 12,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 221,
+      "idPlayer1": 12,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 222,
+      "idPlayer1": 12,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 223,
+      "idPlayer1": 12,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 224,
+      "idPlayer1": 12,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 225,
+      "idPlayer1": 12,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 226,
+      "idPlayer1": 12,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 227,
+      "idPlayer1": 12,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 228,
+      "idPlayer1": 12,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 229,
+      "idPlayer1": 13,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 230,
+      "idPlayer1": 13,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 231,
+      "idPlayer1": 13,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 232,
+      "idPlayer1": 13,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 233,
+      "idPlayer1": 13,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 234,
+      "idPlayer1": 13,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 235,
+      "idPlayer1": 13,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 236,
+      "idPlayer1": 13,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 237,
+      "idPlayer1": 13,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 238,
+      "idPlayer1": 13,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 239,
+      "idPlayer1": 13,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 240,
+      "idPlayer1": 13,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 241,
+      "idPlayer1": 13,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 242,
+      "idPlayer1": 13,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 243,
+      "idPlayer1": 13,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 244,
+      "idPlayer1": 13,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 245,
+      "idPlayer1": 13,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 246,
+      "idPlayer1": 13,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 247,
+      "idPlayer1": 13,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 248,
+      "idPlayer1": 14,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 249,
+      "idPlayer1": 14,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 250,
+      "idPlayer1": 14,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 251,
+      "idPlayer1": 14,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 252,
+      "idPlayer1": 14,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 253,
+      "idPlayer1": 14,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 254,
+      "idPlayer1": 14,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 255,
+      "idPlayer1": 14,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 256,
+      "idPlayer1": 14,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 257,
+      "idPlayer1": 14,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 258,
+      "idPlayer1": 14,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 259,
+      "idPlayer1": 14,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 260,
+      "idPlayer1": 14,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 261,
+      "idPlayer1": 14,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 262,
+      "idPlayer1": 14,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 263,
+      "idPlayer1": 14,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 264,
+      "idPlayer1": 14,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 265,
+      "idPlayer1": 14,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 266,
+      "idPlayer1": 14,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 267,
+      "idPlayer1": 15,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 268,
+      "idPlayer1": 15,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 269,
+      "idPlayer1": 15,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 270,
+      "idPlayer1": 15,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 271,
+      "idPlayer1": 15,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 272,
+      "idPlayer1": 15,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 273,
+      "idPlayer1": 15,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 274,
+      "idPlayer1": 15,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 275,
+      "idPlayer1": 15,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 276,
+      "idPlayer1": 15,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 277,
+      "idPlayer1": 15,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 278,
+      "idPlayer1": 15,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 279,
+      "idPlayer1": 15,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 280,
+      "idPlayer1": 15,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 281,
+      "idPlayer1": 15,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 282,
+      "idPlayer1": 15,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 283,
+      "idPlayer1": 15,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 284,
+      "idPlayer1": 15,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 285,
+      "idPlayer1": 15,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 286,
+      "idPlayer1": 16,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 287,
+      "idPlayer1": 16,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 288,
+      "idPlayer1": 16,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 289,
+      "idPlayer1": 16,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 290,
+      "idPlayer1": 16,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 291,
+      "idPlayer1": 16,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 292,
+      "idPlayer1": 16,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 293,
+      "idPlayer1": 16,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 294,
+      "idPlayer1": 16,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 295,
+      "idPlayer1": 16,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 296,
+      "idPlayer1": 16,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 297,
+      "idPlayer1": 16,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 298,
+      "idPlayer1": 16,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 299,
+      "idPlayer1": 16,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 300,
+      "idPlayer1": 16,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 301,
+      "idPlayer1": 16,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 302,
+      "idPlayer1": 16,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 303,
+      "idPlayer1": 16,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 304,
+      "idPlayer1": 16,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 305,
+      "idPlayer1": 17,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 306,
+      "idPlayer1": 17,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 307,
+      "idPlayer1": 17,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 308,
+      "idPlayer1": 17,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 309,
+      "idPlayer1": 17,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 310,
+      "idPlayer1": 17,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 311,
+      "idPlayer1": 17,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 312,
+      "idPlayer1": 17,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 313,
+      "idPlayer1": 17,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 314,
+      "idPlayer1": 17,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 315,
+      "idPlayer1": 17,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 316,
+      "idPlayer1": 17,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 317,
+      "idPlayer1": 17,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 318,
+      "idPlayer1": 17,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 319,
+      "idPlayer1": 17,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 320,
+      "idPlayer1": 17,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 321,
+      "idPlayer1": 17,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 322,
+      "idPlayer1": 17,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 323,
+      "idPlayer1": 17,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 324,
+      "idPlayer1": 18,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 325,
+      "idPlayer1": 18,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 326,
+      "idPlayer1": 18,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 327,
+      "idPlayer1": 18,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 328,
+      "idPlayer1": 18,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 329,
+      "idPlayer1": 18,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 330,
+      "idPlayer1": 18,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 331,
+      "idPlayer1": 18,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 332,
+      "idPlayer1": 18,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 333,
+      "idPlayer1": 18,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 334,
+      "idPlayer1": 18,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 335,
+      "idPlayer1": 18,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 336,
+      "idPlayer1": 18,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 337,
+      "idPlayer1": 18,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 338,
+      "idPlayer1": 18,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 339,
+      "idPlayer1": 18,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 340,
+      "idPlayer1": 18,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 341,
+      "idPlayer1": 18,
+      "idPlayer2": 19
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 342,
+      "idPlayer1": 18,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 343,
+      "idPlayer1": 19,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 344,
+      "idPlayer1": 19,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 345,
+      "idPlayer1": 19,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 346,
+      "idPlayer1": 19,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 347,
+      "idPlayer1": 19,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 348,
+      "idPlayer1": 19,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 349,
+      "idPlayer1": 19,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 350,
+      "idPlayer1": 19,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 351,
+      "idPlayer1": 19,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 352,
+      "idPlayer1": 19,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 353,
+      "idPlayer1": 19,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 354,
+      "idPlayer1": 19,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 0,
+      "id": 355,
+      "idPlayer1": 19,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 1,
+      "id": 356,
+      "idPlayer1": 19,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 357,
+      "idPlayer1": 19,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 358,
+      "idPlayer1": 19,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 1,
+      "id": 359,
+      "idPlayer1": 19,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 360,
+      "idPlayer1": 19,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 361,
+      "idPlayer1": 19,
+      "idPlayer2": 20
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 362,
+      "idPlayer1": 20,
+      "idPlayer2": 1
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 363,
+      "idPlayer1": 20,
+      "idPlayer2": 2
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 364,
+      "idPlayer1": 20,
+      "idPlayer2": 3
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 365,
+      "idPlayer1": 20,
+      "idPlayer2": 4
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 0,
+      "id": 366,
+      "idPlayer1": 20,
+      "idPlayer2": 5
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 3,
+      "id": 367,
+      "idPlayer1": 20,
+      "idPlayer2": 6
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 368,
+      "idPlayer1": 20,
+      "idPlayer2": 7
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 369,
+      "idPlayer1": 20,
+      "idPlayer2": 8
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 370,
+      "idPlayer1": 20,
+      "idPlayer2": 9
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 371,
+      "idPlayer1": 20,
+      "idPlayer2": 10
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 372,
+      "idPlayer1": 20,
+      "idPlayer2": 11
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 3,
+      "id": 373,
+      "idPlayer1": 20,
+      "idPlayer2": 12
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 374,
+      "idPlayer1": 20,
+      "idPlayer2": 13
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 2,
+      "id": 375,
+      "idPlayer1": 20,
+      "idPlayer2": 14
+    },
+    {
+      "crownsPlayer1": 1,
+      "crownsPlayer2": 2,
+      "id": 376,
+      "idPlayer1": 20,
+      "idPlayer2": 15
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 3,
+      "id": 377,
+      "idPlayer1": 20,
+      "idPlayer2": 16
+    },
+    {
+      "crownsPlayer1": 0,
+      "crownsPlayer2": 2,
+      "id": 378,
+      "idPlayer1": 20,
+      "idPlayer2": 17
+    },
+    {
+      "crownsPlayer1": 2,
+      "crownsPlayer2": 1,
+      "id": 379,
+      "idPlayer1": 20,
+      "idPlayer2": 18
+    },
+    {
+      "crownsPlayer1": 3,
+      "crownsPlayer2": 0,
+      "id": 380,
+      "idPlayer1": 20,
+      "idPlayer2": 19
+    }
+  ]
+}
