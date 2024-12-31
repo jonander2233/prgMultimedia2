@@ -12,15 +12,12 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
-import com.jonander2233.test01examen01.ui.fragments.AviableCardsFragment;
-import com.jonander2233.test01examen01.ui.fragments.ClasificationFragment;
 import com.jonander2233.test01examen01.ui.fragments.ListFragment;
 import com.jonander2233.test01examen01.utils.adapters.CardAdapter;
 import com.jonander2233.test01examen01.utils.models.Card;
 import com.jonander2233.test01examen01.utils.models.Competition;
 import com.jonander2233.test01examen01.utils.parsers.CompetitionParser;
 
-import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,CardAdapter.CardsDataListener {

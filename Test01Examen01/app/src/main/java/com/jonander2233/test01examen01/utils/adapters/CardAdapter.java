@@ -20,21 +20,31 @@ import java.util.List;
 /**
  * CardAdapter
  * "bindea" los datos de las cartas en la vista
+ * además obtiene las cartas desde el listener
  */
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardHolder>{
-
+    //interfaz para obtener las cartas desde el listener
     public interface CardsDataListener{
         List<Card> getCards();
     }
 
     private List<Card> cards;
+    //listener para obtener las cartas
     private CardsDataListener cardsDataListener;
+
+    /**
+     * Constructor que recibe el listener
+     * @param listener es la clase que implementa la interfaz CardsDataListener, en este caso MainActivity
+     */
     public CardAdapter(CardsDataListener listener) {
         this.cardsDataListener = listener;
         this.cards = new ArrayList<>(); // Inicializamos una lista vacía
-        loadCards(); // Cargamos las cartas desde el listener
+        loadCards(); // Cargamos las cartas desde el listener, aqui se llama al metodo getCards() de la clase MainActivity
     }
 
+    /**
+     * Metodo que actualiza las cartas, aqui se llama al metodo getCards() de la clase MainActivity
+     */
     public void updateCards() {
         if (cardsDataListener != null) {
             this.cards = cardsDataListener.getCards(); // Obtén las cartas desde el listener
