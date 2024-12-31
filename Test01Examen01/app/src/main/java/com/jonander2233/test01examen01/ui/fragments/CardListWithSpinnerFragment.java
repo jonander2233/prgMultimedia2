@@ -16,19 +16,18 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.jonander2233.test01examen01.R;
 import com.jonander2233.test01examen01.utils.adapters.CardAdapter;
-import com.jonander2233.test01examen01.utils.models.Card;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListWithSpinnerFragment extends Fragment {
+public class CardListWithSpinnerFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private Spinner spinner;
     private CardAdapter adapter;
 
     // Constructor
-    public ListWithSpinnerFragment(CardAdapter.CardsDataListener cardsDataListener) {
+    public CardListWithSpinnerFragment(CardAdapter.CardsDataListener cardsDataListener) {
         this.adapter = new CardAdapter(cardsDataListener);
     }
 
