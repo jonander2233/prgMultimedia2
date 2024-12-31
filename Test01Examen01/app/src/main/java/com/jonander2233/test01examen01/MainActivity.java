@@ -14,6 +14,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.navigation.NavigationView;
 import com.jonander2233.test01examen01.ui.fragments.AviableCardsFragment;
 import com.jonander2233.test01examen01.ui.fragments.ClasificationFragment;
+import com.jonander2233.test01examen01.ui.fragments.ListFragment;
+import com.jonander2233.test01examen01.utils.adapters.CardAdapter;
 import com.jonander2233.test01examen01.utils.models.Competition;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         // Manejar navegación inicial
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AviableCardsFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter())).commit();
             navigationView.setCheckedItem(R.id.nav_aviable_cards);
         }
 
@@ -73,9 +75,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         if(item.getItemId() == R.id.nav_aviable_cards)
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AviableCardsFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter())).commit();
         else if (item.getItemId() == R.id.nav_clasification)
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ClasificationFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(null)).commit();
 
         drawerLayout.closeDrawer(GravityCompat.START); // Cerrar el Navigation Drawer al seleccionar un ítem
         return true;
