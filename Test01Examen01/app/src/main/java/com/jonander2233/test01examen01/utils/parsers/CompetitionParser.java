@@ -37,61 +37,64 @@ public class CompetitionParser {
             competitionFile.read(buffer);
             competitionFile.close();
             json = new String (buffer, StandardCharsets.UTF_8);
-            JSONTokener tokener = new JSONTokener(json);
-            JSONArray rootArray = new JSONArray(tokener);
-            if (rootArray.length() > 0) {
-                JSONObject rootObject = rootArray.getJSONObject(0);
-                int id = rootObject.getInt("id");
-                String name = rootObject.getString("name");
 
-                //cards array
-                JSONArray cardsArray = rootObject.getJSONArray("cards");
-                List<Card> cards = new ArrayList<>();
-                for (int i = 0; i < cardsArray.length(); i++) {
-                    JSONObject card = cardsArray.getJSONObject(i);
-                    int arena = card.getInt("arena");
-                    String description = card.getString("description");
-                    int elixir = card.getInt("elixir");
-                    int hitSpeed = card.getInt("hitSpeed");
-                    long idCard = card.getLong("id");
-                    String image = card.getString("image");
-                    String nameCard = card.getString("name");
-                    int range = card.getInt("range");
-                    String rarity = card.getString("rarity");
-                    int speed = card.getInt("speed");
-                    String type = card.getString("type");
-                    cards.add(new Card(idCard,nameCard,elixir,type,rarity,arena,image,description,speed,hitSpeed,range));
-                }
-                //players array
-                JSONArray playersArray = rootObject.getJSONArray("players");
-                List<Player> players = new ArrayList<>();
-                for (int i = 0; i < playersArray.length(); i++) {
-                    JSONObject player = playersArray.getJSONObject(i);
-                    String birthdate = player.getString("birthdate");
-                    String country = player.getString("country");
-                    String flag = player.getString("flag");
-                    int idPlayer = player.getInt("id");
-                    String playerName = player.getString("name");
-                    String playerSurname = player.getString("surname");
-                    String team = player.getString("team");
-                    players.add(new Player(idPlayer,playerName,playerSurname,birthdate,country,flag,team));
-                }
-                JSONArray matchesArray = rootObject.getJSONArray("matches");
-                List<Match> matches = new ArrayList<>();
-                for (int i = 0; i < matchesArray.length(); i++) {
-                    JSONObject match = matchesArray.getJSONObject(i);
-                    int matchId = match.getInt("id");
-                    int crownsPlayer1 = match.getInt("crownsPlayer1");
-                    int crownsPlayer2 = match.getInt("crownsPlayer2");
-                    int idPlayer1 = match.getInt("idPlayer1");
-                    int idPlayer2 = match.getInt("idPlayer2");
-                    matches.add(new Match(matchId,idPlayer1,crownsPlayer1,idPlayer2,crownsPlayer2));
-                }
-                competition = new Competition(id,name,players,cards,matches);
+            JSONTokener tokener = new JSONTokener(json);
+            JSONObject rootObject = new JSONObject(tokener);
+
+            int id = rootObject.getInt("id");
+            String name = rootObject.getString("name");
+
+            //cards array
+            JSONArray cardsArray = rootObject.getJSONArray("cards");
+            List<Card> cards = new ArrayList<>();
+            for (int i = 0; i < cardsArray.length(); i++) {
+                JSONObject card = cardsArray.getJSONObject(i);
+                int arena = card.getInt("arena");
+                String description = card.getString("description");
+                int elixir = card.getInt("elixir");
+                int hitSpeed = card.getInt("hitSpeed");
+                long idCard = card.getLong("id");
+                String image = card.getString("image");
+                String nameCard = card.getString("name");
+                int range = card.getInt("range");
+                String rarity = card.getString("rarity");
+                int speed = card.getInt("speed");
+                String type = card.getString("type");
+                cards.add(new Card(idCard,nameCard,elixir,type,rarity,arena,image,description,speed,hitSpeed,range));
             }
+            //players array
+            JSONArray playersArray = rootObject.getJSONArray("players");
+            List<Player> players = new ArrayList<>();
+            for (int i = 0; i < playersArray.length(); i++) {
+                JSONObject player = playersArray.getJSONObject(i);
+                String birthdate = player.getString("birthdate");
+                String country = player.getString("country");
+                String flag = player.getString("flag");
+                int idPlayer = player.getInt("id");
+                String playerName = player.getString("name");
+                String playerSurname = player.getString("surname");
+                String team = player.getString("team");
+                players.add(new Player(idPlayer,playerName,playerSurname,birthdate,country,flag,team));
+            }
+            JSONArray matchesArray = rootObject.getJSONArray("matches");
+            List<Match> matches = new ArrayList<>();
+            for (int i = 0; i < matchesArray.length(); i++) {
+                JSONObject match = matchesArray.getJSONObject(i);
+                int matchId = match.getInt("id");
+                int crownsPlayer1 = match.getInt("crownsPlayer1");
+                int crownsPlayer2 = match.getInt("crownsPlayer2");
+                int idPlayer1 = match.getInt("idPlayer1");
+                int idPlayer2 = match.getInt("idPlayer2");
+                matches.add(new Match(matchId,idPlayer1,crownsPlayer1,idPlayer2,crownsPlayer2));
+            }
+            competition = new Competition(id,name,players,cards,matches);
         } catch (IOException | JSONException e) {
             throw new RuntimeException(e);
         }
         return true;
+    }
+
+    public Competition getCompetition() {
+        return competition;
     }
 }

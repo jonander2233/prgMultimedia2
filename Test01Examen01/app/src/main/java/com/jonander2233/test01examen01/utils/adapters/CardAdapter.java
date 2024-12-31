@@ -20,6 +20,11 @@ import java.util.List;
  * "bindea" los datos de las cartas en la vista
  */
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardHolder>{
+
+    public interface CardsDataListener{
+        List<Card> getCards();
+    }
+
     private List<Card> cards;
     @NonNull
     @Override
@@ -33,6 +38,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardHolder>{
     public void onBindViewHolder(@NonNull CardHolder holder, int position) {
         holder.bind(cards.get(position));
     }
+
 
     @Override
     public int getItemCount() {

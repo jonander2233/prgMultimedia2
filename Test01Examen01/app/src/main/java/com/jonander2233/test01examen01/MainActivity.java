@@ -16,16 +16,25 @@ import com.jonander2233.test01examen01.ui.fragments.AviableCardsFragment;
 import com.jonander2233.test01examen01.ui.fragments.ClasificationFragment;
 import com.jonander2233.test01examen01.ui.fragments.ListFragment;
 import com.jonander2233.test01examen01.utils.adapters.CardAdapter;
+import com.jonander2233.test01examen01.utils.models.Card;
 import com.jonander2233.test01examen01.utils.models.Competition;
+import com.jonander2233.test01examen01.utils.parsers.CompetitionParser;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,CardAdapter.CardsDataListener {
     private DrawerLayout drawerLayout;
     private Competition competition;
+    private CompetitionParser competitionParser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        loadData();
+        competitionParser = new CompetitionParser(this);
+        competitionParser.parse();
+        competition = competitionParser.getCompetition();
+        getCards();
         // Configurar Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -58,18 +67,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }
             }
         });
-
-
-
-
-
-
-
-
-
-
     }
 
+    private void loadData() {
+
+    }
 
 
     @Override
@@ -81,5 +83,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         drawerLayout.closeDrawer(GravityCompat.START); // Cerrar el Navigation Drawer al seleccionar un ítem
         return true;
+    }
+
+    @Override
+    public List<Card> getCards() {
+        return competition.getCards();
     }
 }
