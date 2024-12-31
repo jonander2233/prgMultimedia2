@@ -20,6 +20,7 @@ import com.jonander2233.test01examen01.utils.models.Card;
 import com.jonander2233.test01examen01.utils.models.Competition;
 import com.jonander2233.test01examen01.utils.parsers.CompetitionParser;
 
+import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,CardAdapter.CardsDataListener {
@@ -30,11 +31,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        loadData();
         competitionParser = new CompetitionParser(this);
         competitionParser.parse();
         competition = competitionParser.getCompetition();
-        getCards();
+        loadData();
         // Configurar Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         // Manejar navegación inicial
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter())).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter(this))).commit();
             navigationView.setCheckedItem(R.id.nav_aviable_cards);
         }
 
@@ -70,14 +70,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void loadData() {
-
+        getCards();
     }
 
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         if(item.getItemId() == R.id.nav_aviable_cards)
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter())).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter(this))).commit();
         else if (item.getItemId() == R.id.nav_clasification)
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(null)).commit();
 

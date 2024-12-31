@@ -10,9 +10,11 @@ import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.jonander2233.test01examen01.MainActivity;
 import com.jonander2233.test01examen01.R;
 import com.jonander2233.test01examen01.utils.models.Card;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,6 +28,26 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardHolder>{
     }
 
     private List<Card> cards;
+    private CardsDataListener cardsDataListener;
+    public CardAdapter(CardsDataListener listener) {
+        this.cardsDataListener = listener;
+        this.cards = new ArrayList<>(); // Inicializamos una lista vacía
+        loadCards(); // Cargamos las cartas desde el listener
+    }
+
+    public void updateCards() {
+        if (cardsDataListener != null) {
+            this.cards = cardsDataListener.getCards(); // Obtén las cartas desde el listener
+            notifyDataSetChanged(); // Notifica los cambios al RecyclerView
+        }
+    }
+
+    private void loadCards() {
+        if (cardsDataListener != null) {
+            this.cards = cardsDataListener.getCards(); // Inicializa las cartas desde el listener
+        }
+    }
+
     @NonNull
     @Override
     public CardHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
