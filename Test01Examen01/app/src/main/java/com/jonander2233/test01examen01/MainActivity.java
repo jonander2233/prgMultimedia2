@@ -12,7 +12,9 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
+import com.jonander2233.test01examen01.ui.fragments.CardListWithSpinnerFragment;
 import com.jonander2233.test01examen01.ui.fragments.ListFragment;
+import com.jonander2233.test01examen01.utils.SortObjects;
 import com.jonander2233.test01examen01.utils.adapters.CardAdapter;
 import com.jonander2233.test01examen01.utils.models.Card;
 import com.jonander2233.test01examen01.utils.models.Competition;
@@ -20,18 +22,21 @@ import com.jonander2233.test01examen01.utils.parsers.CompetitionParser;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener,CardAdapter.CardsDataListener {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, CardAdapter.CardsDataListener {
+
     private DrawerLayout drawerLayout;
     private Competition competition;
     private CompetitionParser competitionParser;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        competitionParser = new CompetitionParser(this);
-        competitionParser.parse();
-        competition = competitionParser.getCompetition();
         loadData();
+        setLayout(savedInstanceState);
+    }
+
+    private void setLayout(Bundle savedInstanceState) {
         // Configurar Toolbar
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -47,18 +52,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         // Manejar navegación inicial
         if (savedInstanceState == null) {
+            // Reemplazar el fragmento con el nuevo fragmento que maneja Spinner y RecyclerView
+//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CardListWithSpinnerFragment(this)).commit();
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter(this))).commit();
             navigationView.setCheckedItem(R.id.nav_aviable_cards);
         }
 
-        // Manejar el botón "Atrás" con OnBackPressedDispatcher
+        // Manejar el botón "Atrás"
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
                 if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
                     drawerLayout.closeDrawer(GravityCompat.START);
                 } else {
-                    // Permitir el comportamiento predeterminado si no se intercepta
                     setEnabled(false);
                     getOnBackPressedDispatcher().onBackPressed();
                 }
@@ -67,23 +73,29 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void loadData() {
+        competitionParser = new CompetitionParser(this);
+        competitionParser.parse();
+        competition = competitionParser.getCompetition();
         getCards();
     }
 
-
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        if(item.getItemId() == R.id.nav_aviable_cards)
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter(this))).commit();
-        else if (item.getItemId() == R.id.nav_clasification)
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(null)).commit();
+        if (item.getItemId() == R.id.nav_aviable_cards) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    new ListFragment(new CardAdapter(this))).commit();
+        } else if (item.getItemId() == R.id.nav_clasification) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    new CardListWithSpinnerFragment(this)).commit();
+        }
 
-        drawerLayout.closeDrawer(GravityCompat.START); // Cerrar el Navigation Drawer al seleccionar un ítem
+        drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
 
     @Override
     public List<Card> getCards() {
+        SortObjects.orderCards(competition.getCards());
         return competition.getCards();
     }
 }
