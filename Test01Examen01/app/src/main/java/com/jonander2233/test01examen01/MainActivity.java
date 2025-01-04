@@ -13,6 +13,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 import com.jonander2233.test01examen01.ui.fragments.CardListWithSpinnerFragment;
+import com.jonander2233.test01examen01.ui.fragments.ListFragment;
+import com.jonander2233.test01examen01.utils.SortObjects;
 import com.jonander2233.test01examen01.utils.adapters.CardAdapter;
 import com.jonander2233.test01examen01.utils.models.Card;
 import com.jonander2233.test01examen01.utils.models.Competition;
@@ -51,8 +53,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         // Manejar navegación inicial
         if (savedInstanceState == null) {
             // Reemplazar el fragmento con el nuevo fragmento que maneja Spinner y RecyclerView
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new CardListWithSpinnerFragment(this)).commit();
+//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new CardListWithSpinnerFragment(this)).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter(this))).commit();
             navigationView.setCheckedItem(R.id.nav_aviable_cards);
         }
 
@@ -81,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.nav_aviable_cards) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new CardListWithSpinnerFragment(this)).commit();
+                    new ListFragment(new CardAdapter(this))).commit();
         } else if (item.getItemId() == R.id.nav_clasification) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new CardListWithSpinnerFragment(this)).commit();
@@ -93,6 +95,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public List<Card> getCards() {
+        SortObjects.orderCards(competition.getCards());
         return competition.getCards();
     }
 }
