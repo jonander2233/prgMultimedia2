@@ -85,8 +85,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new ListFragment(new CardAdapter(this))).commit();
         } else if (item.getItemId() == R.id.nav_clasification) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new CardListWithSpinnerFragment(this)).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ListFragment(null)).commit();
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);
