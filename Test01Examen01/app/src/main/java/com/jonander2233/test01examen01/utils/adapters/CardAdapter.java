@@ -93,6 +93,7 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardHolder>{
             this.tvElixir = itemView.findViewById(R.id.tvElixir);
             this.tvType = itemView.findViewById(R.id.tvType);
         }
+
         public void bind(Card card){
             String imageString = card.getImage();
             int imageResourceId = itemView.getResources().getIdentifier(imageString, "drawable", itemView.getContext().getPackageName());

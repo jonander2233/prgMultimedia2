@@ -16,13 +16,14 @@ import com.jonander2233.test01examen01.ui.fragments.CardListWithSpinnerFragment;
 import com.jonander2233.test01examen01.ui.fragments.ListFragment;
 import com.jonander2233.test01examen01.utils.SortObjects;
 import com.jonander2233.test01examen01.utils.adapters.CardAdapter;
+import com.jonander2233.test01examen01.utils.adapters.MatchAdapter;
 import com.jonander2233.test01examen01.utils.models.Card;
 import com.jonander2233.test01examen01.utils.models.Competition;
 import com.jonander2233.test01examen01.utils.parsers.CompetitionParser;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, CardAdapter.CardsDataListener {
+public class MainActivity extends AppCompatActivity implements MatchAdapter.MatchDataListener, NavigationView.OnNavigationItemSelectedListener, CardAdapter.CardsDataListener {
 
     private DrawerLayout drawerLayout;
     private Competition competition;
@@ -83,12 +84,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.nav_aviable_cards) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new ListFragment(new CardAdapter(this))).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ListFragment(new CardAdapter(this))).commit();
         } else if (item.getItemId() == R.id.nav_clasification) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ListFragment(null)).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ListFragment(new MatchAdapter(this))).commit();
         }
-
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
@@ -97,5 +96,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public List<Card> getCards() {
         SortObjects.orderCards(competition.getCards());
         return competition.getCards();
+    }
+
+    @Override
+    public Competition getCompetition() {
+        return competition;
     }
 }

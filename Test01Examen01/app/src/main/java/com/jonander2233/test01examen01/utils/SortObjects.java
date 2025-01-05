@@ -58,7 +58,6 @@ public class SortObjects {
                     nWins ++;
                     victories.replace(p2,nWins);
                 }
-
             }
         }
         //aquí se termina la lectura de todos los matches
@@ -67,7 +66,10 @@ public class SortObjects {
             int winsp1 = victories.get(p1);
             int winsp2 = victories.get(p2);
             return Integer.compare(winsp2,winsp1);
+
         });
+//        players.sort(Comparator.comparingInt(Player::getId));
+
         System.out.println("ordenados por victorias");
         for (Player player : players){
             System.out.println(player.getName() + " id: " + player.getId() + " wins: " + victories.get(player));

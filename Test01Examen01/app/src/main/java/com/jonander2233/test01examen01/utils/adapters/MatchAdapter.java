@@ -32,10 +32,12 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchHolder>
         loadCompetition();
         loadMatches();
     }
+
     private void loadCompetition(){
         if(matchDataListener != null)
             this.competition = matchDataListener.getCompetition();
     }
+
     private void loadMatches(){
         if(this.competition != null)
             this.matches = competition.getMatches();
