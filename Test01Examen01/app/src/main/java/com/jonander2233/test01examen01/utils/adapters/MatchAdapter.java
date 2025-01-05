@@ -1,5 +1,6 @@
 package com.jonander2233.test01examen01.utils.adapters;
 
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -75,15 +76,7 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchHolder>
             this.tvAge = itemView.findViewById(R.id.tvAge);
         }
         public void bind(Match match){
-            if(findByid(match.getCrownsPlayer1()) != null && findByid(match.getIdPlayer2()) != null){
+        }
 
-            }
-        }
-        private Player findByid(int id){
-            Optional<Player> foundPlayer = players.stream()
-                    .filter(player -> player.getId() == id)
-                    .findFirst();
-            return foundPlayer.orElse(null); // Si no se encuentra, devuelve null
-        }
     }
 }

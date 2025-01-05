@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         competitionParser.parse();
         competition = competitionParser.getCompetition();
         getCards();
+        SortObjects.orderPlayers(competition);
     }
 
     @Override
