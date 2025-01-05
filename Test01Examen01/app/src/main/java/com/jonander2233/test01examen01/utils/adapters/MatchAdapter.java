@@ -1,5 +1,6 @@
 package com.jonander2233.test01examen01.utils.adapters;
 
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -9,44 +10,55 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.jonander2233.test01examen01.R;
+import com.jonander2233.test01examen01.utils.models.Competition;
 import com.jonander2233.test01examen01.utils.models.Match;
+import com.jonander2233.test01examen01.utils.models.Player;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchHolder> {
     public interface MatchDataListener{
-        List<Match> getMatches();
+        Competition getCompetition();
     }
-    private List<Match> matches;
     private MatchDataListener matchDataListener;
-
+    private Competition competition;
+    private List<Match> matches;
     public MatchAdapter(MatchDataListener matchDataListener) {
         this.matchDataListener = matchDataListener;
         this.matches = new ArrayList<>();
+        loadCompetition();
         loadMatches();
     }
-    private void loadMatches(){
+    private void loadCompetition(){
         if(matchDataListener != null)
-            this.matches = matchDataListener.getMatches();
+            this.competition = matchDataListener.getCompetition();
+    }
+    private void loadMatches(){
+        if(this.competition != null)
+            this.matches = competition.getMatches();
     }
     @NonNull
     @Override
     public MatchHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return null;
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_ranking,null);
+        MatchHolder matchHolder = new MatchHolder(itemView);
+        return (MatchHolder) matchHolder;
     }
 
     @Override
     public void onBindViewHolder(@NonNull MatchHolder holder, int position) {
-
+        holder.bind(matches.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return matches.size();
     }
 
     public class MatchHolder extends RecyclerView.ViewHolder{
+        ArrayList<Player> players = new ArrayList<>();
         ImageView ivCountryFlag;
         TextView tvRank;
         TextView tvTeam;
@@ -63,7 +75,15 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchHolder>
             this.tvAge = itemView.findViewById(R.id.tvAge);
         }
         public void bind(Match match){
+            if(findByid(match.getCrownsPlayer1()) != null && findByid(match.getIdPlayer2()) != null){
 
+            }
+        }
+        private Player findByid(int id){
+            Optional<Player> foundPlayer = players.stream()
+                    .filter(player -> player.getId() == id)
+                    .findFirst();
+            return foundPlayer.orElse(null); // Si no se encuentra, devuelve null
         }
     }
 }
