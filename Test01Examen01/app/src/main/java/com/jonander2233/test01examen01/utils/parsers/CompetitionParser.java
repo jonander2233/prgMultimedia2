@@ -74,7 +74,7 @@ public class CompetitionParser {
                 String playerName = player.getString("name");
                 String playerSurname = player.getString("surname");
                 String team = player.getString("team");
-                players.add(new Player(idPlayer,playerName,playerSurname,birthdate,country,flag,team));
+                players.add(new Player(idPlayer,playerName,playerSurname,birthdate,team,country,flag));
             }
             JSONArray matchesArray = rootObject.getJSONArray("matches");
             List<Match> matches = new ArrayList<>();

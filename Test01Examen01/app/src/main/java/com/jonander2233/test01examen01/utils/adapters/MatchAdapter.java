@@ -11,11 +11,16 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.jonander2233.test01examen01.R;
+import com.jonander2233.test01examen01.utils.SortObjects;
 import com.jonander2233.test01examen01.utils.models.Competition;
 import com.jonander2233.test01examen01.utils.models.Match;
 import com.jonander2233.test01examen01.utils.models.Player;
 
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -25,12 +30,12 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchHolder>
     }
     private MatchDataListener matchDataListener;
     private Competition competition;
-    private List<Match> matches;
+    private List<Player> players;
     public MatchAdapter(MatchDataListener matchDataListener) {
         this.matchDataListener = matchDataListener;
-        this.matches = new ArrayList<>();
+        this.players = new ArrayList<>();
         loadCompetition();
-        loadMatches();
+        loadPlayers();
     }
 
     private void loadCompetition(){
@@ -38,9 +43,9 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchHolder>
             this.competition = matchDataListener.getCompetition();
     }
 
-    private void loadMatches(){
+    private void loadPlayers(){
         if(this.competition != null)
-            this.matches = competition.getMatches();
+            this.players = competition.getPlayers();
     }
     @NonNull
     @Override
@@ -52,16 +57,18 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchHolder>
 
     @Override
     public void onBindViewHolder(@NonNull MatchHolder holder, int position) {
-        holder.bind(matches.get(position));
+        holder.bind(position +1,players.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return matches.size();
+        return players.size();
     }
 
     public class MatchHolder extends RecyclerView.ViewHolder{
-        ArrayList<Player> players = new ArrayList<>();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        LocalDate fechaActual;
+        LocalDate fechaNac;
         ImageView ivCountryFlag;
         TextView tvRank;
         TextView tvTeam;
@@ -76,8 +83,21 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchHolder>
             this.tvScore = itemView.findViewById(R.id.tvScore);
             this.tvPlayer = itemView.findViewById(R.id.tvPlayer);
             this.tvAge = itemView.findViewById(R.id.tvAge);
+
         }
-        public void bind(Match match){
+        public void bind(int rank ,Player player){
+            String imageString = "_" + player.getFlag();
+            int imageResourceId = itemView.getResources().getIdentifier(imageString,"drawable",itemView.getContext().getPackageName());
+            this.ivCountryFlag.setImageResource(imageResourceId);
+            this.tvRank.setText(String.valueOf(rank));
+            this.tvTeam.setText(player.getTeam());
+            this.tvScore.setText(String.valueOf(SortObjects.getWins(player)));
+            this.tvPlayer.setText(player.getName());
+            String fechaNacStr = player.getBirthdate();
+            fechaNac = LocalDate.parse(fechaNacStr,formatter);
+            fechaActual = LocalDate.now();
+            int edad = Period.between(fechaNac,fechaActual).getYears();
+            this.tvAge.setText(String.valueOf(edad));
         }
 
     }

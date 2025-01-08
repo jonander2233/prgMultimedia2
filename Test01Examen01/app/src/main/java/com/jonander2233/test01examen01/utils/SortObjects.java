@@ -26,7 +26,9 @@ public class SortObjects {
     public static void orderCards(List<Card> cardList){
         cardList.sort(Comparator.comparingInt(Card::getElixir).thenComparing(o -> ordenRarezas.get(o.getRarity())).thenComparing(Card::getName));
     }
-
+    public static Integer getWins(Player player){
+        return victories.get(player);
+    }
     public static void orderPlayers(Competition competition){
         List<Match> matches = competition.getMatches();
         List<Player> players = competition.getPlayers();
