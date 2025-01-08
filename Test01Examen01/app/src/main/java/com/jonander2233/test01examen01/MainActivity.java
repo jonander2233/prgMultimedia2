@@ -2,6 +2,8 @@ package com.jonander2233.test01examen01;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
@@ -20,6 +22,7 @@ import com.jonander2233.test01examen01.utils.adapters.MatchAdapter;
 import com.jonander2233.test01examen01.utils.models.Card;
 import com.jonander2233.test01examen01.utils.models.Competition;
 import com.jonander2233.test01examen01.utils.parsers.CompetitionParser;
+
 
 import java.util.List;
 
@@ -45,6 +48,17 @@ public class MainActivity extends AppCompatActivity implements MatchAdapter.Matc
         // Configurar Navigation Drawer
         drawerLayout = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
+        View navView = navigationView.getHeaderView(0);
+
+        //para editar el texto de la barra lateral, hay que conseguir la vista de nav_view
+        TextView tvCompetitionName = navView.findViewById(R.id.tvCompetitionName);
+        TextView tvCompetitionId = navView.findViewById(R.id.tvCompetitionId);
+        if (competition != null) {
+            tvCompetitionName.setText(competition.getName());
+            tvCompetitionId.setText(String.valueOf("id: " + competition.getId()));
+        }
+
+
         navigationView.setNavigationItemSelectedListener(this);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open_nav, R.string.close_nav);
