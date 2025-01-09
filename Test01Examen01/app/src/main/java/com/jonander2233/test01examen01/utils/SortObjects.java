@@ -5,6 +5,9 @@ import com.jonander2233.test01examen01.utils.models.Competition;
 import com.jonander2233.test01examen01.utils.models.Match;
 import com.jonander2233.test01examen01.utils.models.Player;
 
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
@@ -14,6 +17,11 @@ import java.util.Optional;
 public class SortObjects {
     private static Map<String, Integer> ordenRarezas;
     private static Map<Player, Integer> victories;
+    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+    private static LocalDate fechaActual;
+    private static LocalDate fechaNac1;
+    private static LocalDate fechaNac2;
+
     static {
         victories = new HashMap<>();
         ordenRarezas = new HashMap<>();
@@ -32,15 +40,15 @@ public class SortObjects {
     public static void orderPlayers(Competition competition){
         List<Match> matches = competition.getMatches();
         List<Player> players = competition.getPlayers();
-        //recorrer los jugadores y sumar las victorias
+        //recorrer los matches y sumar las victorias
         for (int i = 0; i < matches.size(); i++) {
             //por cada iteración, se coge el match y se intenta recoger los players
-            Player p1 = findByid(matches.get(i).getIdPlayer1(), competition);
-            Player p2 = findByid(matches.get(i).getIdPlayer2(), competition);
+            Player p1 = findByid(matches.get(i).getIdPlayer1(), competition); //id jugador 1
+            Player p2 = findByid(matches.get(i).getIdPlayer2(), competition); //id jugador 2
             //si ambos players existen se comparan sus coronas ganadas en el match
             if(p1 != null && p2 != null){
-                int p1Crowns = matches.get(i).getCrownsPlayer1();
-                int p2Crowns = matches.get(i).getCrownsPlayer2();
+                int p1Crowns = matches.get(i).getCrownsPlayer1();//coronas jugador 1
+                int p2Crowns = matches.get(i).getCrownsPlayer2(); //coronas jugador 3
                 //si no existen los jugadores en el hashMap se crean con valor de victorias por defecto a 0
                 if(!victories.containsKey(p1)){
                     victories.put(p1,0);
@@ -54,7 +62,7 @@ public class SortObjects {
                     int nWins = victories.get(p1);
                     nWins ++;
                     victories.replace(p1,nWins);
-                } else {
+                } else if(p2Crowns > p1Crowns) {
                     //si es al contrario, se hace lo mismo pero a la inversa, se aumentan las victorias al player 2
                     int nWins = victories.get(p2);
                     nWins ++;
@@ -67,10 +75,20 @@ public class SortObjects {
         players.sort((p1,p2)->{
             int winsp1 = victories.get(p1);
             int winsp2 = victories.get(p2);
-            return Integer.compare(winsp2,winsp1);
+            int compareWins = Integer.compare(winsp2,winsp1);
+            if(compareWins !=0)
+                return compareWins;
 
+            String P1fechaNacStr = p1.getBirthdate();
+            String P2fechaNacStr = p2.getBirthdate();
+            fechaNac1 = LocalDate.parse(P1fechaNacStr,formatter);
+            fechaNac2 = LocalDate.parse(P2fechaNacStr,formatter);
+            int compareAge = fechaNac2.compareTo(fechaNac1);
+            if (compareAge != 0) {
+                return compareAge;
+            }
+            return p2.getName().compareTo(p1.getName());
         });
-//        players.sort(Comparator.comparingInt(Player::getId));
 
         System.out.println("ordenados por victorias");
         for (Player player : players){
