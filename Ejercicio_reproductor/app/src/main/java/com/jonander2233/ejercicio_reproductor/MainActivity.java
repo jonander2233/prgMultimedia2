@@ -8,6 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.jonander2233.ejercicio_reproductor.adapters.SongAdapter;
@@ -28,10 +29,7 @@ public class MainActivity extends AppCompatActivity implements SongAdapter.OnSel
         if(songParser.parse()){
             songs = songParser.getSongs();
         }
-        SongAdapter songAdapter = new SongAdapter(songs, this);
-        RecyclerView recyclerView = findViewById(R.id.rvSongs);
-        recyclerView.setAdapter(songAdapter);
-
+        setupRecyclerView();
     }
 
     @Override
@@ -40,5 +38,12 @@ public class MainActivity extends AppCompatActivity implements SongAdapter.OnSel
     }
     private void setPlayer(){
 
+    }
+    private void setupRecyclerView() {
+        RecyclerView rvSongList = findViewById(R.id.rvSongs);
+        SongAdapter songAdapter = new SongAdapter(songs,this);
+        rvSongList.setAdapter(songAdapter);
+        rvSongList.setHasFixedSize(true);
+        rvSongList.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
     }
 }
