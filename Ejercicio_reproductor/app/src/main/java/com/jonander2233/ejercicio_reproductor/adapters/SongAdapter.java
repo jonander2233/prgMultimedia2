@@ -21,7 +21,6 @@ public class SongAdapter extends RecyclerView.Adapter<SongAdapter.SongViewHolder
         this.songs = songs;
         this.context = context;
     }
-
     @Override
     public SongViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.item_song, parent, false);
@@ -39,10 +38,12 @@ public class SongAdapter extends RecyclerView.Adapter<SongAdapter.SongViewHolder
         return songs.size();
     }
 
+    public interface OnSelectedSongClickListener {
+        void onSelectedSong(Song song);
+    }
+
     public class SongViewHolder extends RecyclerView.ViewHolder {
         private TextView infoSong;
-        private TextView artist;
-        private TextView album;
 
         public SongViewHolder(View itemView) {
             super(itemView);
@@ -50,9 +51,7 @@ public class SongAdapter extends RecyclerView.Adapter<SongAdapter.SongViewHolder
         }
 
         public void bind(Song song) {
-            infoSong.setText(song.getTitle());
-            artist.setText(song.getArtist());
-            album.setText(song.getAlbum());
+            infoSong.setText(song.getArtist() + " - "+ song.getTitle());
         }
     }
 }

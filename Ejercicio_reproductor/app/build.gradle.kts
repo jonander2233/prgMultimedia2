@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "com.jonander2233.ejercicio_reproductor"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.jonander2233.ejercicio_reproductor"
         minSdk = 30
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
