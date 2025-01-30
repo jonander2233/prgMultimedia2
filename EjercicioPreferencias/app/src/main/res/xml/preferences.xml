@@ -1,0 +1,36 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/connection_data">
+        <EditTextPreference
+            android:key="user"
+            android:title="@string/user"
+            android:summary="@string/user_summary"
+            android:dialogTitle="@string/user_summary"/>
+        <EditTextPreference
+            android:key="password"
+            android:title="@string/password"
+            android:summary="@string/password_summary"
+            android:dialogTitle="@string/password_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/service">
+        <SwitchPreferenceCompat
+            android:key="service"
+            android:title="@string/enable_service"
+            android:summary="@string/service_summary"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/security">
+        <CheckBoxPreference
+            android:key="encription"
+            android:title="@string/use_encription"
+            android:summary="@string/use_encription"/>
+        <ListPreference
+            android:title="@string/encryption_algorithm"
+            android:key="encryption"
+            android:dialogTitle="@string/encryption_algorithm"
+            android:entries="@array/algorithm"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="algorithm">
+        <item>3DES</item>
+        <item>AES</item>
+        <item>Blowfish</item>
+        <item>RC5</item>
+        <item>IDEA</item>
+    </string-array>
+</resources>

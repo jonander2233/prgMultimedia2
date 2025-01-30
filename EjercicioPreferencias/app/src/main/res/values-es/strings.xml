@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EjercicioPreferencias</string>
+    <string name="connection_data">Datos de conexión</string>
+    <string name="user">Usuario</string>
+    <string name="user_summary">Indica tu usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="password_summary">Indica tu contraseña</string>
+    <string name="service">Servicio</string>
+    <string name="enable_service">Habilitar servicio</string>
+    <string name="service_summary">El servicio se iniciará automaticamente</string>
+    <string name="security">Seguridad</string>
+    <string name="use_encription">Utilizar cifrado</string>
+    <string name="encryption_algorithm">Algoritmo de cifrado</string>
+</resources>
