@@ -55,6 +55,13 @@ public class MainActivity extends AppCompatActivity implements SongAdapter.OnSel
         songImageView = findViewById(R.id.imageView);
         songInfoTextView = findViewById(R.id.info_song);
         setupSeekBar();
+        if(!songs.isEmpty()){
+            this.selectedSong = songs.get(0);
+            setPlayer();
+            updateSongInfo();
+            mediaPlayer.pause();
+        }
+
     }
 
     @Override

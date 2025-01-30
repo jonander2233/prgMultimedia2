@@ -13,8 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="16dp"
-
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/default_cover" />
 
     <TextView
         android:id="@+id/info_song"
